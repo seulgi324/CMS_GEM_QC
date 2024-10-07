@@ -1,4 +1,6 @@
 # CMS_GE21_QC
+
+On lxplus9 (default)
 ```
 pip3 install pandas
 pip3 install numpy==1.22.4
