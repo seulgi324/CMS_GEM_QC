@@ -17,7 +17,7 @@ Date is written in yyyy/mm/dd.
 2. Change /FONT/PATH/ to your path (fonts are available in ./font/ dir in this repository).
 3. Run the following command:
 ```
-python3 QC34_all.py -mt [] -mn [] -d3 [] -d4 []
+python3 QC34_all.py -mt [Module_type] -mn [Module_number] -d3 [Date_of_QC3_data] -d4 [Data_of_QC4_data]
 ```
 For GE2/1, 'mt' should be the type of module (ex.) M6, M7, ...)
 For ME0, 'mt' should be 'ME0'
