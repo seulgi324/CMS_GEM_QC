@@ -22,3 +22,12 @@ python3 QC34_all.py -mt [] -mn [] -d3 [] -d4 []
 For GE2/1, 'mt' should be the type of module (ex.) M6, M7, ...)
 For ME0, 'mt' should be 'ME0'
 d3 and d4 are date of the QC3 and QC4 test respectively.
+
+For example, if you want to make a report for GE21-MODULE-M6-0080 with QC3 data produced on 2024 Oct 08 and QC4 data generated on 2024 Oct 10, run this command:
+```
+python3 QC34_all.py -mt M6 -mn 0080 -d3 20241008 -d4 20241010
+```
+If you want to make a report for ME0-MODULE-0053 with QC3 data produced on 2024 Mar 23 and QC4 data generated on 2024 Mar 24, run this command:
+```
+python3 QC34_all.py -mt ME0 -mn 0053 -d3 20240323 -d4 20240324
+```
