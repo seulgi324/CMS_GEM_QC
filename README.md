@@ -1,6 +1,6 @@
 # CMS_GE21_QC
 
-On lxplus9 (default)
+This code works on lxplus9 (default lxplus) with installations of the packages below.
 ```
 pip3 install pandas
 pip3 install numpy==1.22.4
