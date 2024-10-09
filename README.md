@@ -11,6 +11,8 @@ pip3 install openpyxl
 It's based on the raw data format in 904, .xlsm for QC3 and .txt for QC4. 
 Date is written in yyyy/mm/dd.
 
+If there is problem in installing mplhep, please change matplotlib version to 3.7.5.
+
 
 # How to run
 1. Change /DATA/PATH/ to your path.
